@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    text-align: center;
+    background-color:rgb(173, 219, 183);
+    font-family: 'Press Start 2P', cursive;
+}
+hr {
+    height: 50px;
+    border-color:rgb(31, 21, 35);
+}
+h6 {
+    color:rgb(173, 219, 183);
+}
+#box {
+    background-color:rgb(251, 228, 221);
+    border-color:rgb(31, 21, 35);
+    border-style:double;
+    border-width: 15px;
+    box-shadow: 10px 10px rgb(31, 21, 35);
+    padding: 30px;
+    padding-bottom:30px;
+    margin: 20px;
+    margin-bottom: 40px;
+    transform: translate(-25px, 0px);
+}
+#box2 {
+    background-color:rgb(251, 228, 221);
+    border-color:rgb(31, 21, 35);
+    border-style:solid;
+    box-shadow: 10px 10px rgb(31, 21, 35);
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+    transform: translate(-25px, 0px);
+}
+#box3 {
+    background-color:rgb(31, 21, 35);
+    padding:30px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+#box4 {
+    background-color:rgb(251, 228, 221);
+    border-color:rgb(31, 21, 35);
+    border-style:double;
+    border-width: 10px;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#box5 {
+    background-color:rgb(251, 228, 221);
+    border-color:rgb(31, 21, 35);
+    border-style:solid;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#websiteheader {
+    border-style:double;
+    border-color:rgb(251, 228, 221);
+    border-width:10px;
+    padding: 50px;
+    padding-top: 50px;
+    background-color: rgb(31, 21, 35);
+    color: rgb(253, 190, 181);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 1;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    letter-spacing: 0.125em;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#toptitle {
+    text-align:right;
+}
+a {
+    text-decoration:none;
+    color: rgb(253, 190, 181);
+}
+a:hover {
+    color: rgb(252, 127, 127);
+}
+a:hover, .selectblink {
+    animation: blink 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: none;
+}
+@keyframes blink {
+    from {opacity:0};
+    to {opacity:1};
+}
+#blink {
+    animation: blink 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: none;
+}
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+button {
+    padding: 20px;
+    background-color: rgb(31, 21, 35);
+    color: rgb(255, 214, 209);
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+    box-shadow: 0 0 0 rgb(18, 12, 20);
+    transition: all 0.2s;
+}
+button:hover {
+    box-shadow: 0.4rem 0.4rem 0 rgb(18, 12, 20);
+    transform: translate(-0.4rem, -0.4rem);
+}
+button:active {
+    box-shadow: 0 0 0 rgb(18, 12, 20);
+    transform: translate(0, 0);
+}
+p {
+    margin-top:20px;
+}
+
+#red {
+    color:rgb(252, 127, 127);
+}
+#white {
+    color: rgb(255, 214, 209);
+}
+#yellow {
+    color: rgb(252, 207, 126);
+}
+#blue {
+    color: rgb(173, 219, 183);
+}
+#black {
+    color: rgb(31, 21, 35);
+}
+#colorsquare1 {
+    background-color:rgb(252, 127, 127);
+    width:30px;
+    height:30px;
+    color:rgb(252, 127, 127);
+    margin: 20px 5px;
+}
+#colorsquare2 {
+    background-color:rgb(252, 207, 126);
+    width:30px;
+    height:30px;
+    color:rgb(252, 207, 126);
+    margin: 20px 5px;
+}
+#colorsquare3 {
+    background-color:rgb(173, 219, 183);
+    width:30px;
+    height:30px;
+    color:rgb(173, 219, 183);
+    margin: 20px 5px;
+}
+.pro {
+    background-color:rgb(133, 187, 145);
+    width: 600px;
+    height: 180px;
+    margin: auto;
+    color: rgb(245, 217, 209);
+    border-radius: 10px;
+}
+.con {
+    background-color:rgb(252, 127, 127);
+    width: 600px;
+    height: 180px;
+    margin: auto;
+    color: rgb(245, 217, 209);
+    border-radius: 10px;
+}
+
+@keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+  
+    to {
+      background-position: -120px 60px;
+    }
+}
+  
+.modal {
+    margin-top: 20px;
+    position:inherit;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 3rem;
+    border: 3px solid rgb(31, 21, 35);
+    border-radius: 5px;
+    background: rgb(251, 228, 221);
+    box-shadow: 10px 10px rgb(31, 21, 35);
+}
+.message {
+    font-size:1.1rem;
+    margin-top: 0;
+}
+.btn {
+    color:inherit;
+    font-family:inherit;
+    font-size: inherit;
+    background: rgb(251, 228, 221);
+    padding: 0.5rem 3.4rem;
+    border: 3px solid rgb(31, 21, 35);
+    margin-right: 2.6rem;
+    box-shadow: 0 0 0 rgb(31, 21, 35);
+    transition: all 0.2s;
+}
+  
+.btn:hover {
+    box-shadow: 0.4rem 0.4rem 0 rgb(31, 21, 35);
+    transform: translate(-0.4rem, -0.4rem);
+}
+  
+.btn:active {
+    box-shadow: 0 0 0 rgb(31, 21, 35);
+    transform: translate(0, 0);
+}
+  
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@keyframes textflicker {
+    from {
+      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    to {
+      text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+  }
+
+.scanlines {
+    overflow: hidden;
+    mix-blend-mode: difference;
+}
+  
+.scanlines::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(255, 255, 255, 0.05) .5%,
+      transparent 1%
+    );
+}
