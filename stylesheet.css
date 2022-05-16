@@ -167,7 +167,7 @@ p {
 }
 .pro {
     background-color:rgb(133, 187, 145);
-    width: 600px;
+    width: 500px;
     height: 180px;
     margin: auto;
     color: rgb(245, 217, 209);
@@ -175,7 +175,7 @@ p {
 }
 .con {
     background-color:rgb(252, 127, 127);
-    width: 600px;
+    width: 500px;
     height: 180px;
     margin: auto;
     color: rgb(245, 217, 209);
