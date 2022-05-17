@@ -83,7 +83,7 @@ a {
     color: rgb(253, 190, 181);
 }
 a:hover {
-    color: rgb(252, 127, 144);
+    color: rgb(252, 127, 127);
 }
 a:hover, .selectblink {
     animation: blink 0.3s;
@@ -130,7 +130,7 @@ p {
 }
 
 #red {
-    color:rgb(252, 127, 144);
+    color: rgb(252, 127, 127);
 }
 #white {
     color: rgb(255, 214, 209);
@@ -145,10 +145,10 @@ p {
     color: rgb(31, 21, 35);
 }
 #colorsquare1 {
-    background-color:rgb(252, 127, 144);
+    background-color:rgb(252, 127, 127);
     width:30px;
     height:30px;
-    color:rgb(252, 127, 144);
+    color:rgb(252, 127, 127);
     margin: 20px 5px;
 }
 #colorsquare2 {
@@ -174,7 +174,7 @@ p {
     border-radius: 10px;
 }
 .con {
-    background-color:rgb(252, 127, 144);
+    background-color:rgb(252, 127, 127);
     width: 500px;
     height: 180px;
     margin: auto;
