@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     text-align: center;
-    background-color:rgb(173, 219, 183);
+    background-color:rgb(158, 194, 166);
     font-family: 'Press Start 2P', cursive;
 }
 hr {
@@ -9,7 +9,7 @@ hr {
     border-color:rgb(31, 21, 35);
 }
 h6 {
-    color:rgb(173, 219, 183);
+    color:rgb(158, 194, 166);
 }
 #box {
     background-color:rgb(251, 228, 221);
@@ -83,7 +83,7 @@ a {
     color: rgb(253, 190, 181);
 }
 a:hover {
-    color: rgb(252, 127, 127);
+    color: rgb(252, 127, 144);
 }
 a:hover, .selectblink {
     animation: blink 0.3s;
@@ -130,7 +130,7 @@ p {
 }
 
 #red {
-    color:rgb(252, 127, 127);
+    color:rgb(252, 127, 144);
 }
 #white {
     color: rgb(255, 214, 209);
@@ -139,16 +139,16 @@ p {
     color: rgb(252, 207, 126);
 }
 #blue {
-    color: rgb(173, 219, 183);
+    color: rgb(158, 194, 166);
 }
 #black {
     color: rgb(31, 21, 35);
 }
 #colorsquare1 {
-    background-color:rgb(252, 127, 127);
+    background-color:rgb(252, 127, 144);
     width:30px;
     height:30px;
-    color:rgb(252, 127, 127);
+    color:rgb(252, 127, 144);
     margin: 20px 5px;
 }
 #colorsquare2 {
@@ -159,14 +159,14 @@ p {
     margin: 20px 5px;
 }
 #colorsquare3 {
-    background-color:rgb(173, 219, 183);
+    background-color:rgb(158, 194, 166);
     width:30px;
     height:30px;
-    color:rgb(173, 219, 183);
+    color:rgb(158, 194, 166);
     margin: 20px 5px;
 }
 .pro {
-    background-color:rgb(133, 187, 145);
+    background-color:rgb(158, 194, 166);
     width: 500px;
     height: 180px;
     margin: auto;
@@ -174,7 +174,7 @@ p {
     border-radius: 10px;
 }
 .con {
-    background-color:rgb(252, 127, 127);
+    background-color:rgb(252, 127, 144);
     width: 500px;
     height: 180px;
     margin: auto;
