@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     text-align: center;
-    background-color:rgb(158, 194, 166);
+    background-color:rgb(147, 190, 171);
     font-family: 'Press Start 2P', cursive;
 }
 hr {
@@ -136,10 +136,10 @@ p {
     color: rgb(255, 214, 209);
 }
 #yellow {
-    color: rgb(252, 207, 126);
+    color: rgb(252, 187, 126);
 }
 #blue {
-    color: rgb(158, 194, 166);
+    color: rgb(147, 190, 171);
 }
 #black {
     color: rgb(31, 21, 35);
@@ -152,21 +152,21 @@ p {
     margin: 20px 5px;
 }
 #colorsquare2 {
-    background-color:rgb(252, 207, 126);
+    background-color:rgb(252, 187, 126);
     width:30px;
     height:30px;
-    color:rgb(252, 207, 126);
+    color:rgb(252, 187, 126);
     margin: 20px 5px;
 }
 #colorsquare3 {
-    background-color:rgb(158, 194, 166);
+    background-color:rgb(147, 190, 171);
     width:30px;
     height:30px;
     color:rgb(158, 194, 166);
     margin: 20px 5px;
 }
 .pro {
-    background-color:rgb(158, 194, 166);
+    background-color:rgb(147, 190, 171);
     width: 500px;
     height: 180px;
     margin: auto;
