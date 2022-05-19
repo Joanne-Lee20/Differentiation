@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Differentiation - WIP</title>
+        <title>☆【 Differentiation Website 】☆</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
@@ -18,9 +18,9 @@
                 <h4><strong>DIRECTORY</strong></h4>
                 <hr>
                 <ul>
-                    <li><button><a href="index.html"><strong>></strong> What is differentiation?</a></button></li>
-                    <li><button><a href="rules.html"><strong>></strong> Differentiation rules</a></button></li>
-                    <li><button><a href="game.html"><strong>></strong> Game (practice)</a></button></li>
+                    <li><button><a href="index.html" id = "a"><strong>></strong> What is differentiation?</a></button></li>
+                    <li><button><a href="rules.html" id = "b"><strong>></strong> Differentiation rules</a></button></li>
+                    <li><button><a href="game.html" id = "c"><strong>></strong> Game (practice)</a></button></li>
                 </ul>
             </div></div>
             <div class="row"><div id="box2">
@@ -36,13 +36,13 @@
                 </div>
                 </p>
                 <div id="box3">
-                    <h5 id="red">Definition of the derivative:</h5>
-                    <p id = "white">m = f'(x) = lim <u>f(x + h) - f(x)</u><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h→0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h<br><br></p>
+                    <h5 id="white"><i id = "glitch">Definition of the derivative:</i></h5>
+                    <p id = "red">f'(x) = lim <u>f(x + h) - f(x)</u><br>&nbsp;h→0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h<br><br></p>
                     <p id = "yellow"><b>></b> If f'(x) exists → f is differentiable at x!</p><br>
                 </div><br>
                 <div id="box3">
-                    <h5 id="blue">Alternate form of the derivative:</h5>
-                    <p id = "white">f'(a) = lim <u>f(x) - f(a)</u><br>&nbsp;&nbsp;&nbsp;&nbsp;x→a&nbsp;&nbsp;&nbsp;&nbsp;x-a<br><br></p>
+                    <h5 id="white"><i id = "glitch">Alternate form of the derivative:</i></h5>
+                    <p id = "blue">f'(a) = lim <u>f(x) - f(a)</u><br>&nbsp;&nbsp;&nbsp;&nbsp;x→a&nbsp;&nbsp;&nbsp;&nbsp;x-a<br><br></p>
                     <p id = "yellow"><b>></b> For all <i>a</i> for which the limit exists, f'(x) is a function of a.</p><br>
                 </div>
                 <p><b>Okay, but how do we know if a derivative exists at a point?</b>
@@ -51,7 +51,7 @@
                           <div class="pro">
                             <br>
                             <p>
-                                f'(a) <u>exists at the point</u> if
+                                f'(a) <u>exists at the point</u> if the left and right limits of the slope are both equal to the same finite value at that point.
                             </p>
                           </div>
                         </div>

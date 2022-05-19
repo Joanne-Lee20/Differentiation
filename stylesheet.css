@@ -38,6 +38,8 @@ h6 {
     padding:30px;
     padding-bottom: 10px;
     margin: auto;
+    color:rgb(251, 228, 221);
+    border-radius:10px;
 }
 #box4 {
     background-color:rgb(251, 228, 221);
@@ -75,6 +77,16 @@ h6 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+#glitch {
+    font-size: 1em;
+    line-height: 1;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    letter-spacing: 0.125em;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 #toptitle {
     text-align:right;
 }
@@ -82,8 +94,14 @@ a {
     text-decoration:none;
     color: rgb(253, 190, 181);
 }
-a:hover {
+#a:hover {
     color: rgb(252, 127, 127);
+}
+#b:hover {
+    color: rgb(252, 187, 126);
+}
+#c:hover {
+    color: rgb(147, 190, 171);
 }
 a:hover, .selectblink {
     animation: blink 0.3s;
@@ -167,19 +185,26 @@ p {
 }
 .pro {
     background-color:rgb(147, 190, 171);
-    width: 500px;
-    height: 180px;
+    padding-left:10px;
+    padding-right:10px;
+    width: 550px;
+    height:180px;
     margin: auto;
     color: rgb(245, 217, 209);
     border-radius: 10px;
 }
 .con {
     background-color:rgb(252, 127, 127);
-    width: 500px;
-    height: 180px;
+    padding-left:10px;
+    padding-right:10px;
+    width: 550px;
+    height:180px;
     margin: auto;
     color: rgb(245, 217, 209);
     border-radius: 10px;
+}
+#right-align {
+    text-align:left;
 }
 
 @keyframes slide {

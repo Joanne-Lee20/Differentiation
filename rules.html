@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Differentiation - WIP</title>
+        <title>☆【 Differentiation Website 】☆</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
@@ -18,79 +18,103 @@
                 <h4><strong>DIRECTORY</strong></h4>
                 <hr>
                 <ul>
-                    <li><button><a href="index.html"><strong>></strong> What is differentiation?</a></button></li>
-                    <li><button><a href="rules.html"><strong>></strong> Differentiation rules</a></button></li>
-                    <li><button><a href="game.html"><strong>></strong> Game (practice)</a></button></li>
+                    <li><button><a href="index.html" id = "a"><strong>></strong> What is differentiation?</a></button></li>
+                    <li><button><a href="rules.html" id = "b"><strong>></strong> Differentiation rules</a></button></li>
+                    <li><button><a href="game.html" id = "c"><strong>></strong> Game (practice)</a></button></li>
                 </ul>
             </div></div>
             <div class="row"><div id="box2">
                 <h3><strong>Differentiation Rules:</strong></h3>
                 <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
                 <br>
-                <p><div id = box5><h5 id = "black"><b>Basic Differentiation Rules:</b></h5><br>
+                <p><div id = box3><h5 id = "white">Basic Differentiation Rules:<hr></h5><br>
                     <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
+                        <li><b id = "red">1. Derivative of a constant function</b><br><b>></b> The derivative of a constant function is 0.<br><b>></b> ex. if f(t) = -34, f'(t) = 0</li><br>
+                        <li><b id = "yellow">2. The Single Variable Rule</b><br><b>></b> The derivative of x is 1.<br><b>></b> ex. if f(x) = x, f'(x) = 1<br><b>></b> ex. if s(t) = t, s'(t) = 1</li><br></li>
+                        <li><b id = "blue">3. The Power Rule</b><br><b>></b> If n is a rational number, then the function x<sup>n</sup> is differentiable and (d/dx)[x<sup>n</sup>] = n * x<sup>n-1</sup>.<br><b>></b> ex. if f(t) = x<sup>4</sup>, f'(t) = 4x<sup>3</sup></li><br>
+                        <li><b id = "yellow">4. The General Power Rule</b><br><b>></b> The derivative of the term ax<sup>n</sup>, where a and n are real numbers, is <br>(a * n)x<sup>n-1</sup>.<br><b>></b> ex. if g(x) = -5t<sup>3</sup>, g'(x) = -15t<sup>2</sup></li><br>
+                        <li><b id = "red">5. The Sum & Difference Rules</b><br><b>></b> The derivative of a sum or difference is the sum or difference of the derivatives.<br><b>></b> (d/dx)[f(x) + g(x)] = f'(x) + g'(x)<br><b>></b> (d/dx)[f(x) - g(x)] = f'(x) - g'(x)</li>
+                        <br>
                     </ul>
                 </div>
                 </p>
                 <p><div id = box5><h5 id = "black"><b>The Product and Quotient Rules:</b></h5><br>
                     <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
-                    </ul>
-                </div>
-                </p>
-                <p><div id = box5><h5 id = "black"><b>Higher Order Derivatives:</b></h5><br>
-                    <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
+                        <li><b>The Product Rule:</b> If a function is the product of two differential functions (ex. f(x) and g(x)), the derivative is<br><br>f'(x) * g(x) + f(x) * g'(x)</li><br>
+                        <li><b>The Quotient Rule:</b> If a function is the quotient of two differential functions (ex. f(x) and g(x)), the derivative is<br><br><u>f'(x) * g(x) - f(x) * g'(x)</u><br>[g(x)]<sup>2</sup></li>
                     </ul>
                 </div>
                 </p>
                 <p><div id = box5><h5 id = "black"><b>The Chain Rule:</b></h5><br>
-                    <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
-                    </ul>
+                    <div class="row" id = "right-align">
+                        <div class="col-lg-5">
+                            If f and g are both differentiable, then f(g(x)) is differentiable and <br>f'(g(x)) * g'(x)
+                        </div>
+                        <div class="col-lg-7">
+                            <b>&nbsp;Example:</b> Find f'(x) if f(x) = (5x+3)<sup>2</sup>
+                            <ul id = "right-align">
+                                <li>1. f'(x) = 2(5x+3) * (5x+3)'</li>
+                                <li>2. f'(x) = 2(5x+3)(5)</li>
+                                <li>3. f'(x) = 10(5x+3)</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 </p>
                 <p><div id = box5><h5 id = "black"><b>Implicit Differentiation:</b></h5><br>
+                    <b>Basic facts to consider:</b>
+                    In implicit differentiation, you will have a (dy/dx) for each y in the original function or equation. Isolate the (dy/dx). If you are taking the second derivative, you will often substitute the expression you found for the first derivative somewhere in the process.<br>
                     <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
+                        <li><b>></b> Differentiation is taking place with respect to x.</li>
+                        <li><b>></b> When differentiating terms involving x alone, differentiate as usual.</li>
+                        <li><b>></b> When differentiating terms involving y, apply the chain rule (it is assumed that y is defined implicitly as differentiable function of x.</li>
+                    </ul>
+                    <b>Guidelines for implicit differentiation:</b>
+                    <ul>
+                        <li>1. Differentiate both sides with respect to x. Multiply by dy/dx every time you differentiate an expression containing y (apply chain rule).</li>
+                        <li>2. Isolate dy/dx by getting all of the dy/dx terms onto one side of the equation, and all other terms onto the other side.</li>
+                        <li>3. Factor out dy/dx if necessary.</li>
+                        <li>4. Solve for dy/dx.</li>
                     </ul>
                 </div>
                 </p>
                 <p><div id = box5><h5 id = "black"><b>Derivatives of Inverse Functions:</b></h5><br>
+                    Definition of an inverse: A function g is the inverse function of the function f if f(g(x)) = x for each x in the domain of g and g(f(x)) = x for each x in the domain of f. The function g(x) is denoted by f<sup>-1</sup>(x).
+                    <br><br>To find the derivative of an inverse function: Let f and g be inverse functions, such that f(g(x)) = x = g(f(x)) where f(a) = b and g(b) = a.
+                    <br><br>To find g'(b) for a point (a, b) on f'(x): 
                     <ul>
-                        <li>1. Derivative of a constant function</li>
-                        <li>2. The Single Variable Rules</li>
-                        <li>3. The Power Rule</li>
-                        <li>4. The General Power Rule</li>
-                        <li>5. The Sum and Difference Rules</li>
+                        <li>1. Find f'(x)</li>
+                        <li>2. If you are only given b, set b = f(x) to find a.</li>
+                        <li>3. Find f'(a)</li>
+                        <li>4. g'(b) = 1/(f'(a))</li><br>
+                        <li><b>></b> Essentially: (f<sub>-1</sub>)'(x) = <u>&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;</u><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f'(f<sub>-1</sub>(x)</li>
                     </ul>
                 </div>
                 </p>
                 <p><div id = box5><h5 id = "black"><b>Derivatives List:</b></h5><br>
+                    <b>Basic Derivatives:</b>
                     <ul>
-                        <li>(d/dx)(sin<i>x</i>) = cos<i>x</i></li>
-                        <li>(d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
+                        <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
+                        <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
+                        <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
+                        <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
+                        <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
+                        <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
+                        <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
+                        <li><b>></b> (d/dx)(e<sub><i>u</i></sub>) = e<sub><i>u</i></sub>(du/dx)</li>
+                        <li>* Where <i>u</i> is a function of x, and <i>a</i> is a constant</li>
+                    </ul>
+                    <b>Trigonometric Derivatives:</b>
+                    <ul>
+                        <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
+                        <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
+                        <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
+                        <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
+                        <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
+                        <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
+                        <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
+                        <li><b>></b> (d/dx)(e<sub><i>u</i></sub>) = e<sub><i>u</i></sub>(du/dx)</li>
+                        <li>* Where <i>u</i> is a function of x, and <i>a</i> is a constant</li>
                     </ul>
                 </div>
                 </p>
