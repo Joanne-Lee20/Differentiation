@@ -9,6 +9,10 @@ c.fillRect(0, 0, canvas.width, canvas.height);
 const image = new Image();
 image.src = './images/mappp.png';
 
+const playerImage = new Image();
+playerImage.src = './images/000.png';
+
 image.onload = () => {
   c.drawImage(image, -200, -900);
+  c.drawImage(playerImage, 0, 0);
 }
