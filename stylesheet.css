@@ -49,11 +49,47 @@ h6 {
     padding: 30px;
     margin: 20px;
     margin-bottom: 40px;
+    box-shadow: 10px 10px rgb(31, 21, 35);
+    border-radius:5px;
 }
 #box5 {
     background-color:rgb(251, 228, 221);
     border-color:rgb(31, 21, 35);
     border-style:solid;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#box6 {
+    background-color:rgb(252, 127, 127);
+    color:rgb(251, 228, 221);
+    padding: 30px;
+    margin-top:40px;
+}
+#box7 {
+    background-color:rgb(147, 190, 171);
+    color:rgb(251, 228, 221);
+    padding: 30px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+#box8 {
+    background-color:rgb(31, 21, 35);
+    padding:30px;
+    padding-bottom: 10px;
+    margin: auto;
+    color:rgb(251, 228, 221);
+    border-radius:10px;
+    border-style:double;
+    border-width:10px;
+}
+#box9 {
+    background-color:rgb(251, 228, 221);
+    border-color:rgb(31, 21, 35);
+    border-style:double;
+    border-width:15px;
+    border-radius:10px;
+    box-shadow: 10px 10px rgb(31, 21, 35);
     padding: 30px;
     margin: 20px;
     margin-bottom: 40px;
@@ -205,6 +241,10 @@ p {
 }
 #right-align {
     text-align:left;
+}
+#right-align-2 {
+    text-align:left;
+    padding-left:60px;
 }
 
 @keyframes slide {

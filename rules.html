@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <title>☆【 Differentiation Website 】☆</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
@@ -27,7 +27,7 @@
                 <h3><strong>Differentiation Rules:</strong></h3>
                 <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
                 <br>
-                <p><div id = box3><h5 id = "white">Basic Differentiation Rules:<hr></h5><br>
+                <p><div id = box3><h5 id = "white"><i>Basic Differentiation Rules</i><hr></h5><br>
                     <ul>
                         <li><b id = "red">1. Derivative of a constant function</b><br><b>></b> The derivative of a constant function is 0.<br><b>></b> ex. if f(t) = -34, f'(t) = 0</li><br>
                         <li><b id = "yellow">2. The Single Variable Rule</b><br><b>></b> The derivative of x is 1.<br><b>></b> ex. if f(x) = x, f'(x) = 1<br><b>></b> ex. if s(t) = t, s'(t) = 1</li><br></li>
@@ -38,20 +38,20 @@
                     </ul>
                 </div>
                 </p>
-                <p><div id = box5><h5 id = "black"><b>The Product and Quotient Rules:</b></h5><br>
+                <p><div id = box6><h5 id = "white"><i>The Product and Quotient Rules</i></h5><br>
                     <ul>
                         <li><b>The Product Rule:</b> If a function is the product of two differential functions (ex. f(x) and g(x)), the derivative is<br><br>f'(x) * g(x) + f(x) * g'(x)</li><br>
                         <li><b>The Quotient Rule:</b> If a function is the quotient of two differential functions (ex. f(x) and g(x)), the derivative is<br><br><u>f'(x) * g(x) - f(x) * g'(x)</u><br>[g(x)]<sup>2</sup></li>
                     </ul>
                 </div>
                 </p>
-                <p><div id = box5><h5 id = "black"><b>The Chain Rule:</b></h5><br>
-                    <div class="row" id = "right-align">
-                        <div class="col-lg-5">
-                            If f and g are both differentiable, then f(g(x)) is differentiable and <br>f'(g(x)) * g'(x)
+                <p><div id = box7><h5 id = "white"><i>The Chain Rule</i></h5><br>
+                    <div class="row">
+                        <div class="col-lg-5" id = "right-align-2">
+                            If f and g are both differentiable, then f(g(x)) is differentiable and f'(g(x)) * g'(x)
                         </div>
                         <div class="col-lg-7">
-                            <b>&nbsp;Example:</b> Find f'(x) if f(x) = (5x+3)<sup>2</sup>
+                            <b>Example:</b> Find f'(x) if f(x) = (5x+3)<sup>2</sup>
                             <ul id = "right-align">
                                 <li>1. f'(x) = 2(5x+3) * (5x+3)'</li>
                                 <li>2. f'(x) = 2(5x+3)(5)</li>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 </p>
-                <p><div id = box5><h5 id = "black"><b>Implicit Differentiation:</b></h5><br>
+                <p><div id = box5><h5 id = "black"><i>Implicit Differentiation</i></h5><br>
                     <b>Basic facts to consider:</b>
                     In implicit differentiation, you will have a (dy/dx) for each y in the original function or equation. Isolate the (dy/dx). If you are taking the second derivative, you will often substitute the expression you found for the first derivative somewhere in the process.<br>
                     <ul>
@@ -69,17 +69,19 @@
                         <li><b>></b> When differentiating terms involving x alone, differentiate as usual.</li>
                         <li><b>></b> When differentiating terms involving y, apply the chain rule (it is assumed that y is defined implicitly as differentiable function of x.</li>
                     </ul>
-                    <b>Guidelines for implicit differentiation:</b>
-                    <ul>
-                        <li>1. Differentiate both sides with respect to x. Multiply by dy/dx every time you differentiate an expression containing y (apply chain rule).</li>
-                        <li>2. Isolate dy/dx by getting all of the dy/dx terms onto one side of the equation, and all other terms onto the other side.</li>
-                        <li>3. Factor out dy/dx if necessary.</li>
-                        <li>4. Solve for dy/dx.</li>
-                    </ul>
+                    <div id = box6>
+                        <b>Guidelines for implicit differentiation:<br></b>
+                        <ul>
+                            <li>1. Differentiate both sides with respect to x. Multiply by dy/dx every time you differentiate an expression containing y (apply chain rule).</li>
+                            <li>2. Isolate dy/dx by getting all of the dy/dx terms onto one side of the equation, and all other terms onto the other side.</li>
+                            <li>3. Factor out dy/dx if necessary.</li>
+                            <li>4. Solve for dy/dx.</li>
+                        </ul>
+                    </div>
                 </div>
                 </p>
-                <p><div id = box5><h5 id = "black"><b>Derivatives of Inverse Functions:</b></h5><br>
-                    Definition of an inverse: A function g is the inverse function of the function f if f(g(x)) = x for each x in the domain of g and g(f(x)) = x for each x in the domain of f. The function g(x) is denoted by f<sup>-1</sup>(x).
+                <p><div id = box9><h5 id = "black"><i>Derivatives of Inverse Functions</i></h5><br>
+                   A function g is the <u>inverse</u> function of the function f if f(g(x)) = x for each x in the domain of g and g(f(x)) = x for each x in the domain of f. The function g(x) is denoted by f<sup>-1</sup>(x).
                     <br><br>To find the derivative of an inverse function: Let f and g be inverse functions, such that f(g(x)) = x = g(f(x)) where f(a) = b and g(b) = a.
                     <br><br>To find g'(b) for a point (a, b) on f'(x): 
                     <ul>
@@ -91,31 +93,40 @@
                     </ul>
                 </div>
                 </p>
-                <p><div id = box5><h5 id = "black"><b>Derivatives List:</b></h5><br>
-                    <b>Basic Derivatives:</b>
-                    <ul>
-                        <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
-                        <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
-                        <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
-                        <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
-                        <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
-                        <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
-                        <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
-                        <li><b>></b> (d/dx)(e<sub><i>u</i></sub>) = e<sub><i>u</i></sub>(du/dx)</li>
-                        <li>* Where <i>u</i> is a function of x, and <i>a</i> is a constant</li>
-                    </ul>
-                    <b>Trigonometric Derivatives:</b>
-                    <ul>
-                        <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
-                        <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
-                        <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
-                        <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
-                        <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
-                        <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
-                        <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
-                        <li><b>></b> (d/dx)(e<sub><i>u</i></sub>) = e<sub><i>u</i></sub>(du/dx)</li>
-                        <li>* Where <i>u</i> is a function of x, and <i>a</i> is a constant</li>
-                    </ul>
+                <p><div id = "box8"><h5 id = "white"><i id = "glitch">Derivatives List</i></h5><br>
+                    <div class="row">
+                        <div class="col-lg-6" id="right-align-2">
+                            <b id="right-align-2">Basic Derivatives:</b>
+                            <div id = "blue">
+                                <ul id="right-align-2">
+                                    <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
+                                    <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
+                                    <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
+                                    <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
+                                    <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
+                                    <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
+                                    <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
+                                    <li><b>></b> (d/dx)(e<sup><i>u</i></sup>) = e<sup><i>u</i></sup>(du/dx)</li><br>
+                                    <li id = "red">* Where <i>u</i> is a function of x, and <i>a</i> is a constant</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="right-align">
+                            <b>&nbsp;&nbsp;Trigonometric Derivatives:</b>
+                            <div id = "yellow">
+                                <ul id="right-align">
+                                    <li><b>></b> (d/dx)(sin<i>x</i>) = cos<i>x</i></li>
+                                    <li><b>></b> (d/dx)(cos<i>x</i>) = -sin<i>x</i></li>
+                                    <li><b>></b> (d/dx)(tan<i>x</i>) = sec<sup>2</sup><i>x</i></li>
+                                    <li><b>></b> (d/dx)(cot<i>x</i>) = -csc<sup>2</sup><i>x</i></li>
+                                    <li><b>></b> (d/dx)(sec<i>x</i>) = sec<i>x</i>tan<i>x</i></li>
+                                    <li><b>></b> (d/dx)(csc<i>x</i>) = -csc<i>x</i>cot<i>x</i></li>
+                                    <li><b>></b> (d/dx)(ln<i>u</i>) = 1/<i>u</i>(du/dx)</li>
+                                    <li><b>></b> (d/dx)(e<sub><i>u</i></sub>) = e<sub><i>u</i></sub>(du/dx)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </p>
             </div></div>
