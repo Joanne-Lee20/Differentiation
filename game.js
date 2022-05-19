@@ -10,9 +10,18 @@ const image = new Image();
 image.src = './images/mappp.png';
 
 const playerImage = new Image();
-playerImage.src = './images/000.png';
+playerImage.src = './images/back.png';
 
 image.onload = () => {
   c.drawImage(image, -200, -900);
-  c.drawImage(playerImage, 0, 0);
+  c.drawImage(
+    playerImage,
+    0,
+    0,
+    playerImage.width / 4,
+    playerImage.height,
+    canvas.width / 2 - playerImage.width / 2,
+    canvas.height / 2 - playerImage.height / 2,
+    playerImage.width / 4,
+    playerImage.height);
 }
